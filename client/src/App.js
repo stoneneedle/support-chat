@@ -1,32 +1,19 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 
-function App() {
+export default class App extends React.Component {
 
-  const [backendData, setBackendData] = useState([{}]);
+  render() {
+    return (
+      <div className="App">
+  
 
-  useEffect(() => {
-    fetch("http://localhost:5000/api/")
-    .then((resp) => resp.json())
-    .then(
-      data => {
-        setBackendData(data);
-      }
+
+
+
+  
+      </div>
     );
-  }, []);
+  }
 
-  return (
-    <div className="App">
-
-    {(typeof backendData.users === 'undefined') ? (
-      <p>Loading...</p>
-    ): (
-      backendData.users.map((user, i) => (
-        <p key={i}>{user}</p>
-      ))
-    )}
-
-    </div>
-  );
 }
 
-export default App;

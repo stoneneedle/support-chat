@@ -1,0 +1,2 @@
+#!/bin/bash
+git add . && git commit -m "Added react-bootstrap and bootstrap to client, set up basic component files" && git push -u origin main
