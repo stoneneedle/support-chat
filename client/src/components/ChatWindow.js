@@ -5,7 +5,45 @@ export default class Landing extends React.Component {
   render() {
     return(
       <>
-        <p>Chat Window</p>
+        <h1>Chat Window</h1>
+        <p></p>
+        <span>Text sample.</span><br />
+        <span>Text sample.</span><br />
+        <span>Text sample.</span><br />
+        <span>Text sample.</span><br />
+        <span>Text sample.</span><br />
+        <span>Text sample.</span><br />
+        <span>Text sample.</span><br />
+        <span>Text sample.</span><br />
+        <span>Text sample.</span><br />
+        <span>Text sample.</span><br />
+        <span>Text sample.</span><br />
+        <span>Text sample.</span><br />
+        <span>Text sample.</span><br />
+        <span>Text sample.</span><br />
+        <span>Text sample.</span><br />
+        <span>Text sample.</span><br />
+        <span>Text sample.</span><br />
+        <span>Text sample.</span><br />
+        <span>Text sample.</span><br />
+        <span>Text sample.</span><br />
+        <span>Text sample.</span><br />
+        <span>Text sample.</span><br />
+        <span>Text sample.</span><br />
+        <span>Text sample.</span><br />
+        <span>Text sample.</span><br />
+        <span>Text sample.</span><br />
+        <span>Text sample.</span><br />
+        <span>Text sample.</span><br />
+        <span>Text sample.</span><br />
+        <span>Text sample.</span><br />
+        <span>Text sample.</span><br />
+        <span>Text sample.</span><br />
+        <span>Text sample.</span><br />
+        <span>Text sample.</span><br />
+        <span>Text sample.</span><br />
+        <span>Text sample.</span><br />
+
       </>
     );
   }
