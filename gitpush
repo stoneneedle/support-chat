@@ -1,2 +1,2 @@
 #!/bin/bash
-git add . && git commit -m "Altered default server port and refactored port to var." && git push -u origin main
+git add . && git commit -m "Refactored components into ChatPane, SidePane, and MsgPane, each of which renders other components based on prop state (based on user entrance status)." && git push -u origin main
