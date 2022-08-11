@@ -6,12 +6,19 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
 // Chat Components
-import ChatWindow from './components/ChatWindow';
-import Sidebar from './components/Sidebar';
-import Login from './components/Login';
+import ChatPane from './components/ChatPane';
+import SidePane from './components/SidePane';
+import MsgPane from './components/MsgPane';
 
 
 export default class App extends React.Component {
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      userHasEnteredChat: false
+    };
+  }
 
   render() {
     return (
@@ -20,13 +27,13 @@ export default class App extends React.Component {
           <Row>
             <Col>
               <Row className="">
-                <Col className="chat bg-black text-light"><ChatWindow /></Col>
+                <Col className="chat bg-black text-light"><ChatPane userHasEnteredChat={this.state.userHasEnteredChat} /></Col>
               </Row>
               <Row className="message bg-black text-light">
-                <Col><Login /></Col>
+                <Col><MsgPane /></Col>
               </Row>
             </Col>
-            <Col className="sidebar bg-black text-light" sm={2} lg={1}><Sidebar /></Col>
+            <Col className="sidebar bg-black text-light" sm={2} lg={1}><SidePane /></Col>
           </Row>
         </Container>
       </div>

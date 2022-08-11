@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default class Landing extends React.Component {
+export default class ChatWindow extends React.Component {
 
   render() {
     return(
@@ -43,7 +43,6 @@ export default class Landing extends React.Component {
         <span>Text sample.</span><br />
         <span>Text sample.</span><br />
         <span>Text sample.</span><br />
-
       </>
     );
   }
