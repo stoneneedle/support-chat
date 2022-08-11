@@ -1,2 +1,2 @@
 #!/bin/bash
-git add . && git commit -m "Styled chat, message, and sidebar windows with nested cols and rows in main app." && git push -u origin main
+git add . && git commit -m "Styling and login component adjustments." && git push -u origin main
